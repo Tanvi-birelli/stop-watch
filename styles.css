@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('quidditch.jpeg');
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer-container{
+    background-color: #ffffffa4;
+    padding: 50px;
+    font-size: 3rem;
+    border-radius:5px;
+    box-shadow: 0 0 10px;
+}
+button{
+    padding:0.5rem;
+}
+.buttons{
+    text-align: center;
+}
+#start-stop{
+    background-color: #298e29;
+    border: solid 1px #207320;
+}
+#start-stop:hover{
+    background-color: #207320;
+}
+#reset{
+    background-color:#e4a228;
+    border: solid 1px #ce8a0c;
+}
+#reset:hover{
+    background-color:#ce8a0c;
+}
+i{
+    font-size: 1rem;
+}
